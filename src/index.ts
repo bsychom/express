@@ -10,6 +10,9 @@ app.get('/', (_req: Request, res: Response) => {
 app.get('/ping', (_req: Request, res: Response) => {
   return res.send('pong 🏓')
 })
+app.get('/users', (req, res) =>{
+  return res.send('this is users')
+    )
 
 app.listen(port, () => {
   return console.log(`Server is listening on ${port}`)
