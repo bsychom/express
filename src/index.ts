@@ -12,6 +12,7 @@ app.get('/ping', (_req: Request, res: Response) => {
 })
 app.get('/users', (req, res) =>{
   return res.send('this is users')
+}
     )
 
 app.listen(port, () => {
