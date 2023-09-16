@@ -4,7 +4,7 @@ const app = express()
 const port = process.env.PORT || 8080
 
 app.get('/', (_req: Request, res: Response) => {
-  return res.send('Express Typescript on Vercel afen hello')
+  return res.send(' afen hello')
 })
 
 app.get('/ping', (_req: Request, res: Response) => {
